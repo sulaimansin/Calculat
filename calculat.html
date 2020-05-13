@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Calculator</title>
+         <meta charset="UTF-8">
+         <link href="calculat.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <!-- Start Time -->
+        
+        <h1 id="h1"></h1>
+      
+        <!-- End Time-->
+        
+        <!-- Start show calucluator-->
+        <div id="divStyle">
+            <h3 id="text" ></h3>
+        </div>
+        <!-- End show calucluator-->
+        
+        <!-- Start button calucluator-->
+
+        <div id="center">
+            
+            <input class="styleButton1" id="styleButton1" type="button" value="$ to ₪"  onclick="UtoS();"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="₪ to $"  onclick="StoU();"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="₪ to €" onclick="StoE();"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="€ to ₪" onclick="EtoS();"/>   
+
+            <input class="styleButton1" id="styleButton1" type="button" value="C" onclick="clean();"/>    
+            
+            <br>
+
+            <input class="styleButton2" id="styleButton2" type="button" value="7" onclick="show('7');"/>
+
+            <input class="styleButton2" id="styleButton2" type="button" value="8" onclick="show('8');"/>
+
+            <input class="styleButton2" id="styleButton2" type="button" value="9" onclick="show('9');" />
+
+            <input class="styleButton1" id="styleButton1" type="button" value="/" onclick="show('/');"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="-" onclick="show('-');"/>
+            
+            <br>
+            
+            <input class="styleButton3" id="styleButton2" type="button" value="4" onclick="show('4');"/>
+
+            <input class="styleButton3" id="styleButton2" type="button" value="5" onclick="show('5');"/>
+
+            <input class="styleButton3" id="styleButton2" type="button" value="6" onclick="show('6');"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="×" onclick="show('×');"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="%" onclick="show('%');"/>
+            
+            <br>
+
+            <input class="styleButton4" id="styleButton2" type="button" value="1" onclick="show('1');"/>
+
+            <input class="styleButton4" id="styleButton2" type="button" value="2" onclick="show('2');"/>
+
+            <input class="styleButton4" id="styleButton2" type="button" value="3" onclick="show('3');"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="+" onclick="show('+');"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" value="1/x" onclick="showf('1/');"/>
+
+            <br>
+
+            <input class="styleButton5" id="styleButton2" type="button" value="0" onclick="show('0');"/>
+
+            <input class="styleButton5" id="styleButton2" type="button" value="." onclick="show('.');"/>
+
+            <input class="styleButton5" id="styleButton2" type="button" value="del" onclick="delet();"/>
+
+            <input class="styleButton1" id="styleButton1" type="button" style="width:115px" value="=" onclick="calc()"/>                     
+    </div>
+        
+        <!-- End button calucluator -->
+
+</body>
+    
+          <script src="calculat.js" crossorigin="anonymous"></script>
+
+
+</html>

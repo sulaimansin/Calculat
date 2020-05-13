@@ -1,0 +1,123 @@
+/*Style image body*/
+body {
+    background: url(calculat.jpg) no-repeat center;  
+    background-size: cover;
+}
+
+/* Center button*/
+
+#center {
+    text-align: center;
+}
+
+#h1 {
+    width: 220px;
+    background-color: black;
+    color:red;
+    font-family:'digitalSeven';
+    font-size: 50px;
+    margin-left: 1100px;
+    direction: rtl;
+    
+}
+
+/*Style Show calculator 1*/
+
+#divStyle {
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    margin:110px auto 0 auto;
+    border-radius: 15px;
+    border: 2px solid black;
+     
+   
+}
+
+/* Start Style button */
+
+.styleButton1 {
+    background-color:darkorange;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+#styleButton1:active {
+    background-color:#ffba4e;
+    color: red;
+}
+
+.styleButton2 {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+#styleButton2:active {
+    background-color:red;
+    color: white;
+}
+
+.styleButton3 {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.styleButton4 {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family:normal;
+    text-align: center;
+
+
+}
+
+.styleButton5 {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family:normal;
+    text-align: center;
+
+
+}
+/* End Style button */
+
